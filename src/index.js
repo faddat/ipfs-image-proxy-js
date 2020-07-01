@@ -91,7 +91,7 @@ hdl_upload_s3 = async (req, res) => {
         throw new Error('Invalid username.');
       }
 
-      let sign_data = Signature.fromBuffer(new Buffer(sig, 'base64'));
+      let sign_data = Signature.fromBuffer(new Buffer(sig, 'hex'));
       const sigPubKey = sign_data.recoverPublicKeyFromBuffer(buffer).toString();
 
       const postingPubKey = existingAccs[0].posting.key_auths[0][0];
