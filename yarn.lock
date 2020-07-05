@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@blurtfoundation/blurtjs@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@blurtfoundation/blurtjs/-/blurtjs-0.1.0.tgz#0f6389330c8dc3fc1d9aeda5657e919723d1d2b9"
-  integrity sha512-XXO5Rl4sTCLx8Qt/u6LIMZ/d9oxnvFwpd2JhQSsMmSRk8i7iqGM2ReK8AS6l3dF9Bf+3oJE9kgITl2Mwe/BDTA==
+"@blurtfoundation/blurtjs@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@blurtfoundation/blurtjs/-/blurtjs-0.1.1.tgz#3d534e2b9d61abae7b6df26a2999181173b7b6eb"
+  integrity sha512-1Zt7AWW5w//fKudeS3f21hIjxG7R9bLsVv5DOoeXmFvBCKa+XjKe28u6pWFHw7IdprWA/jW1PjvSCc3gyqj5RA==
   dependencies:
     "@steemit/rpc-auth" "^1.1.1"
     bigi "^1.4.2"
