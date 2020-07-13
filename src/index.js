@@ -138,6 +138,9 @@ serverStart = () => {
 
   let router = express.Router();
   router.post('/:username/:sig', hdl_upload_s3);
+  router.get('/test_cors', async (req, res) => {
+    res.json({status: 'ok', message: 'success', data: null});
+  });
 
   app.use('/', router);
 
