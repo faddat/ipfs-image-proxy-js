@@ -42,7 +42,7 @@ hdl_upload_s3 = async (req, res) => {
 
     const jsonBody = req.body;
     // console.log(`jsonBody.data.length=${jsonBody.data.length}`);
-    if (jsonBody.data.length > 5242880) { // 5MB
+    if (jsonBody.data.length > process.env.MAX_JSON_BODY_IN_BYTES) {
       throw new Error("File size too big!");
     }
 
@@ -73,7 +73,7 @@ hdl_upload_s3 = async (req, res) => {
 
     let buffer = new Buffer(base64_data, 'base64');
     // console.log(`buffer.length=${buffer.length}`);
-    if (buffer.length > 4194304) { // 4MB
+    if (buffer.length > process.env.MAX_IMAGE_SIZE_IN_BYTES) {
       throw new Error("File size too big!");
     }
 
