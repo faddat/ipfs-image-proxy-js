@@ -16,6 +16,8 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.2",
     "fs": "0.0.1-security",
+    "ipfs-cluster-api": "^0.0.9",
+    "ipfs-http-client": "^47.0.1",
     "node-sha1": "^1.0.1",
     "rate-limiter-flexible": "^1.1.6",
     "ripemd160": "^2.0.2"
