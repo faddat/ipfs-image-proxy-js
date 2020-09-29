@@ -20,8 +20,7 @@
     "ipfs-http-client": "^47.0.1",
     "node-sha1": "^1.0.1",
     "rate-limiter-flexible": "^1.1.6",
-    "ripemd160": "^2.0.2",
-    "lodash": "^4.17.19"
+    "ripemd160": "^2.0.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
