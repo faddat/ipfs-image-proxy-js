@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@blurtfoundation/blurtjs@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@blurtfoundation/blurtjs/-/blurtjs-0.1.1.tgz#3d534e2b9d61abae7b6df26a2999181173b7b6eb"
-  integrity sha512-1Zt7AWW5w//fKudeS3f21hIjxG7R9bLsVv5DOoeXmFvBCKa+XjKe28u6pWFHw7IdprWA/jW1PjvSCc3gyqj5RA==
+"@ericet/blurtjs@^0.1.5":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@ericet/blurtjs/-/blurtjs-0.1.7.tgz#31dc158cadc1cc6511b31280abdbe83036b6b0da"
+  integrity sha512-owe1FENiN/FWlowxjqeCMWcP1aUrPnGXUZwlp97gxrcku3KpTV/WLikKjnj578hKGhjFGdu5WYQnBbMqbVaS7A==
   dependencies:
     "@steemit/rpc-auth" "^1.1.1"
     bigi "^1.4.2"
@@ -1102,10 +1102,10 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-lodash@^4.16.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.16.4, lodash@^4.17.19:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 long@~3:
   version "3.2.0"
